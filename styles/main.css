@@ -1,0 +1,206 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	margin: 0px;
+	font-size: 16px;
+}
+
+
+a {
+	line-height: 1.7;
+    padding-bottom: .02em;
+    border-bottom: .1em solid;
+    text-decoration: none;
+    color: #5A1FBA;
+}
+
+.container {
+	padding: 8px 40px 0px 40px;
+  	background-color: #f7f7f7;
+}
+
+.logo {
+	position: absolute;
+	color: #5A1FBA;
+}
+
+nav {
+	height: 60px;
+ 	background-color: grey;
+  	position: fixed;
+  	width: 100%;
+  	line-height: 0px;
+  	text-align: right;
+}
+
+nav ul {
+  	display: inline-block;
+  	list-style: none;
+  	text-align: right;
+  	margin-top: 11px;
+}
+
+nav li {
+  	display: inline-block;
+  	text-transform: uppercase;
+  	font-size: 12px;
+}
+
+
+main {
+	padding-top: 120px;
+	max-width: 600px;
+	margin: 0px 80px 0px 80px;
+}
+
+
+input[type=text], textarea {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+    /*box-shadow: 0 0 5px #5A1FBA;*/
+    border: 3px solid #5A1FBA;
+    padding-left: 12px;
+}
+
+input[role=button] {
+	-webkit-transition: box-shadow 0.30s ease-in-out;
+	-moz-transition: box-shadow 0.30s ease-in-out;
+	-ms-transition: box-shadow 0.30s ease-in-out;
+	-o-transition: box-shadow 0.30s ease-in-out;
+	outline: none;
+	border: 3px solid #5A1FBA;
+}
+ 
+input[role=button]:hover {
+	box-shadow: 0 0 6px #5A1FBA;
+}
+
+input[role=button]:active {
+	box-shadow: none;
+	background-color: #4E1BA0;
+}
+
+input {
+	height: 50px;
+	width: 89%;
+	padding-left: 14px;
+	font-size: 14px;
+	border-radius: 3px;
+	border: 1px solid #D8D8D8;
+	color: #5A1FBA;
+	font-family: 'Karla', sans-serif;
+}
+
+
+input[type=text] {
+	min-width: 240px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #A5A5A5;
+
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #A5A5A5;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #A5A5A5;
+}
+
+.search-button {
+    width: 52px;
+    height: 50px;
+    padding: 1px 4px 3px 5px;
+    background-color: #5A1FBA;
+    vertical-align: bottom;
+    background-image: url('../images/magnifying-glass-white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-position-y: -1px;
+    background-position-x: 1px;
+}
+
+.pagination {
+	margin-top: 40px;
+}
+
+.pagination .inner{
+    display: inline-block;
+    color: black;
+    float: left;
+    padding: 10px 16px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin: 0px -0px 0px 0px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    width: 37.7%;
+}
+
+div.pagination > div:first-child {
+	border: 1px solid #ddd;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 8px 16px;
+    width: 25.7%
+}
+
+div.pagination > div:first-child:hover {
+    border: 1px solid #5A1FBA;
+}
+
+
+div.pagination > div:last-child {
+	border: 1px solid #ddd;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 8px 16px;
+    width: 25.7%
+}
+
+div.pagination > div:last-child:hover {
+    border: 1px solid #5A1FBA;
+}
+
+.search-results ul {
+	display: inline-block;
+	list-style: none;
+	margin-top: 40px;
+	line-height: 38.1px;
+	padding: 0px;
+	color: #A5A5A5;
+}
+
+.search-results .name {
+	font-weight: bold;
+	color: #5A1FBA;
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+	text-transform: none;
+	letter-spacing: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.search-results a:hover {
+	color: black;
+}
