@@ -89,7 +89,8 @@ input[role=button]:hover {
 
 input[role=button]:active {
 	box-shadow: none;
-	background-color: #4E1BA0;
+	background-color: black;
+	border: 3px solid black;
 }
 
 input {
