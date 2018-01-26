@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greg's List</title>
+	<meta name="description" content="This is a Greg's List search result page.">
+
+	 <!-- fonts  -->
+  	<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i" rel="stylesheet">
+
+
+  	<!-- reset -->
+  
+
+
+  	<!-- styles -->
+  	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  	<!-- fix chrome transition bug -->
+  	<script src="js/chrome_bug_fix.js"></script> 
+
+</head>
+
+
+
+<body>
+
+	<!-- navigation -->
+	<nav class="container">
+    <h1 class="logo">Greg's List</h1>
+    <ul>
+      <li><a href="#">Post</a></li>
+      <li><a href="#">Account</a></li>
+    </ul>
+  	</nav>
+
+  	<main>
+
+  		<!-- search bar -->
+  		<section>
+  			<form>
+  				<p><b>Search Jobs</b></p>
+  				<input type="text" name="job" placeholder="Developer, designer, internship..."></input>
+  				<!--<input type="image" role="button" class="search-button" src="images/magnifying-glass-white.png" alt="Search">-->
+  				<input type="button" role="button" class="search-button" alt="Search">
+			</form>
+		</section>
+
+
+  		<!-- pagination-->
+  		<section>
+  			<div class="pagination">
+  				<div class="inner">
+  					<a href="">< prev</a>
+  				</div>
+      			<div class="inner">
+      				1 to 100 of 179
+      			</div>
+      			<div class="inner">
+      				<a href="">next ></a>
+      			</div>
+  			</div>
+		</section>
+
+		<!-- search results-->
+		<section class="search-results">
+			<ul>
+      			<li>June 22 <span class="name"><a href="#">Technical Project Manager</a></span> Midtown East
+      			</li>
+      			<li>June 21 <span class="name"><a href="#">Front End Developer</a></span> SoHo
+      			</li>
+      			<li>June 20 <span class="name"><a href="#">  Senior Python Developer / Cofounder</a></span> Flatiron
+      			</li>
+    		</ul>
+		</section>
+
+  	</main>
+</body>
+</html>
